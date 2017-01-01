@@ -1,6 +1,6 @@
 <?php
 
-namespace atans\fixedasset;
+namespace atans\asset;
 
 use Yii;
 use yii\base\Module as BaseModule;

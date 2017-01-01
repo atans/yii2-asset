@@ -1,6 +1,6 @@
-Yii2 Fixed Asset
+Yii2 Asset
 ===================
-Simple fixed asset extension
+Simple asset manager module
 
 # Installation
 
@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-composer require atans/yii2-fixed-asset
+composer require atans/yii2-asset
 ```
 
 or add
 
 ```
-"atans/yii2-fixed-asset": "*"
+"atans/yii2-asset": "*"
 ```
 
 to the require section of your `composer.json` file.

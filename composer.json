@@ -1,6 +1,6 @@
 {
-    "name": "atans/yii2-fixed-asset",
-    "description": "Simple fixed asset extension",
+    "name": "atans/yii2-asset",
+    "description": "Simple asset manager module",
     "type": "yii2-extension",
     "keywords": ["yii2","extension"],
     "license": "MIT",
@@ -15,7 +15,10 @@
     },
     "autoload": {
         "psr-4": {
-            "atans\\fixedasset\\": ""
+            "atans\\asset\\": ""
         }
+    },
+    "extra": {
+        "bootstrap": "atans\\asset\\Bootstrap"
     }
 }
